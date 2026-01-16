@@ -10,7 +10,7 @@ export class AppService {
   }
 
   setHello(): string {
-    logger.log('GET: Hello', { service: 'AppService' });
+    logger.log('POST: Hello World', { service: 'TestService' });
     return 'post Hello'
   }
 }
